@@ -1,0 +1,284 @@
+* {margin:0; padding:0;box-sizing:border-box;}
+	li {list-style:none;}
+	body {font-family:"맑은 고딕",sans-serif;}	
+	img {vertical-align: middle;}
+    a {text-decoration: none;
+        color: #fff;}
+    .wrap {
+        background:url('la.jpg');                
+        background-repeat: no-repeat;
+        background-position: center; 
+        background-size: cover;
+        height:950px;
+        width:100%;
+        
+    }
+    .nav {display: flex;position: fixed;background: #000; width: 100%;}
+    .nav ul {display: flex; }
+    .nav li { padding:10px 15px;}
+    .nav li:hover {background:#CCCCCC;}
+    .nav search { position: relative;}
+    .nav i {
+        position: absolute;
+        left:1330px;        
+        padding:10px 15px;
+        color: #fff;
+    }
+    .bg1 {position: relative;
+        }
+    .wrap > div > .bg-text {
+        position: absolute;
+        top:800px;
+        left:50%;
+        transform: translate(-50%, -50%);
+        margin-bottom: 20px;
+    }
+    .wrap > .bg1 > .bg-text h3 {
+        color: #fff;
+        text-align: center;
+        padding:20px 0;
+    }
+    .wrap > .bg1 > .bg-text span {
+        font-weight: bold;
+        font-size:13px;
+        color: #fff;
+    }
+    .section {
+        text-align: center;
+    }
+    .section article {        
+        padding-top:80px;        
+    }
+    .section article h3 {
+        font-size: 2em;
+        letter-spacing: 2px;         
+    }
+    .section article span > i {
+        display: block;        
+        color: rgb(73, 72, 72);
+        font-size: 13px;
+        padding-top:30px;        
+    }
+    .section article > p {
+        display: inline-block;
+        padding-top:30px;
+    }
+    
+    .section article ul { 
+        display: flex;
+        justify-content:center;      
+    }
+    .section article > ul > li {
+        
+        display:block;
+    }
+    .section article > ul > li >span {
+        display:block;
+        margin-bottom: 15px;
+    }
+.section article > ul > li > img {
+    width: 153px;
+    height: 153px;
+    margin:0 50px;
+}
+#background {
+    margin-top: 100px;
+    background:#000; 
+    
+    width: 100%;
+    height: 950px;
+}
+#background .title {
+    padding:50px;
+    text-align: center;
+}
+#background .title > h2 {
+    margin: 60px 0 20px 0;
+    color: #fff;
+    letter-spacing: 1.5px;
+    font-size: 30px;
+}
+#background .title > p {
+    color:#757575 ;
+    margin-bottom: 40px;
+}
+
+#background .reservation >div {
+    
+    display: flex;
+    height: 40px;
+    line-height: 40px;
+    color:#757575 ;
+    border-bottom: 1px solid #ccc9c9;
+    font-size: 15px;
+    width: 900px;
+    margin: 0 auto;
+    background: #fff;
+    padding-left: 15px;
+}
+
+#background .reservation > div > p:last-child {
+    margin-left: 20px;
+}
+#background .reservation > .September > p:last-child {
+    background: red;
+    text-align: center;
+    width: 70px;
+    height: 27px;
+    line-height: 30px;
+    color:#fff;
+    margin-top: 5px;
+    
+}
+#background .reservation > .October > p:last-child {
+    background: red;
+    text-align: center;
+    width: 70px;
+    height: 27px;
+    line-height: 30px;
+    color:#fff;
+    margin-top: 5px;
+}
+#background .reservation > .November > p:last-child {    
+    margin-left: 750px;
+    border-bottom: none;
+    display: inline-block;
+    background:#000;
+    color:#fff;
+    height: 30px;
+    line-height: 30px;
+    width: 30px;
+    margin-top: 5px;
+    text-align: center;
+    border-radius: 50%;    
+}
+#background ul {
+    margin:30px auto;    
+    display: flex;  
+    justify-content: space-between;
+    width: 900px; 
+    
+    
+}
+#background ul li {   
+    
+    display:block;
+    
+    background: #fff;
+    width:280px;    
+    overflow: hidden;
+    
+}
+#background ul li h3 {
+    padding: 7px 15px;
+
+}
+#background ul li p {
+    padding: 7px 15px;
+}
+#background ul li button {
+    margin:10px;
+    padding:5px;
+    background:black;
+    color:#fff;
+}
+
+.contact-wwrap {
+}
+
+.contact-wwrap .contact {
+        text-align: center;
+    padding:64px 16px;
+}
+.contact-wwrap .contact h1 {    
+    letter-spacing: 1.3px;
+    margin: 20px;
+}
+
+.w3-row {    
+    display:inline-block;    
+    width: 500px;
+}
+.w3-row > div {
+    display:flex;
+}
+.w3-row .w3-chicago {   
+    text-align:left;
+    flex:1;
+}
+
+.w3-row .w3-chicago ul {
+  padding-top:50px;  
+}
+.w3-row  .from-left { 
+    flex:1;  
+    text-align:right;  
+}
+.w3-row .w3-chicago .chicago > li{ 
+    margin:10px auto 10px 0;
+}
+.w3-row .w3-chicago .chicago > li > i {
+    display: inline-block;  
+    
+}
+.w3-row .w3-chicago .chicago > li > i:first-child {
+    
+}
+.w3-row .w3-chicago .chicago > li > i:last-child {
+    
+}
+.contact-wwrap .contact .from-left {
+    padding: 20px;
+}
+
+.contact-wwrap .contact .from-left > form {
+    margin:10px auto 10px 0;
+}
+.from-left > div {
+    width: 420px;
+}
+
+
+.w3-input {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin:2px 2px;
+}
+.w3-input:nth-last-child {
+    border-right-width:210px;
+}
+.from-left  button {
+    background:black;
+    color:#fff;
+    padding:8px;
+    margin: 10px;;
+}
+
+.rast-img img {
+    width:100%;
+}
+
+.w3-footer {
+    
+    text-align: center;
+}
+.w3-footer .last-footer {
+    
+    height:120px;
+    
+    
+
+}
+.w3-footer .last-footer > li {
+    display: inline-block;
+    margin:70px auto;
+}
+.w3-footer .last-footer > li > a {
+    color:#666666;
+    
+    
+}
+.w3-footer .last-text >a {
+    color:black;
+
+}
